@@ -1,0 +1,360 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Philosopher';
+}
+
+a{
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  height: 8rem;
+  background-color: #19183b;
+  font-family: "Poppins";
+  border-radius: 3px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+  height: 8rem;
+  border-radius: 3px;
+  z-index: 100;
+}
+
+.name{
+  font-size: 2.2rem;
+  align-items: center;
+  font-style: italic;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.menu-links{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu-links li{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem;
+}
+
+li a:hover{
+  color: #ff5722;
+  font-weight: 600;
+}
+
+.btn{
+  background-color: white;
+  padding: .9rem 1.2rem;
+  border: none;
+  border-radius: 3rem;
+  color: #19183b;
+}
+
+.btn:hover{
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.toggle{
+  display: none;
+}
+
+.section2{
+  width: 100%;
+  min-height: 96vh;
+  background-image: url(photo/hero1.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+}
+
+.hero-overlay{
+  width: 100%;
+  min-height: 96vh;
+  background-color: rgba(30, 30, 30, 0.59);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-writeup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  font-family: "Philosopher";
+  color: #fff;
+}
+
+.hero-writeup p{
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  padding-bottom: 1rem;
+  font-weight: 900;
+}
+
+.button{
+  padding: 1.5rem 2.5rem;
+  background-color: #19183b;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+.button:hover{
+  background-color: #ff5722;
+  color: #fff;
+}
+.grid-section{
+  padding-top: 5%;
+  background-color: #b9b6b6;
+}
+
+.grid-section h2{
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 4rem;
+  font-weight: 800;
+  padding-bottom: .2rem;
+}
+
+.line1{
+  height: .5rem;
+  width: 57vw;
+  margin: auto;
+  background-color: #19183b;
+}
+
+.containers{
+  display: flex; 
+  justify-content: center;
+  flex-grow: 1;
+  gap: 1.5rem;
+  padding: 3% 6rem;
+  flex-wrap: wrap;
+}
+
+.box{
+  height: 60vh;
+  flex: 1 1 30rem;
+  background-color: white;
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.box img{
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box4 img{
+  object-fit: fill;
+  display: block;
+}
+
+.image{
+  height: 80%;
+  width: 100%;
+  background-image: url(photo/egusi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box h4{
+  padding: 1rem 2rem 0 2rem;
+  font-size: 2rem;
+  font-family: "Poppins";
+}
+
+.price{
+  font-weight: 1000;
+  color: #ff5722;
+  font-size: 2.1rem;
+  padding: .2rem 2rem;
+}
+
+.news-section{
+  background-color: #b9b6b6;
+}
+
+.latest-news{
+  font-family: "Poppins";
+  font-size: 3.4rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 42px;
+  padding-top: 4%;
+}
+
+.line2{
+  height: .5rem;
+  width: 23vw;
+  margin: auto;
+  background-color: #19183b;
+}
+
+.news-container{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3% 6.5rem;
+}
+  
+.first-box,
+.last-box{
+  height: 80vh;
+  flex: 1 1 30rem;
+  background-color: white;
+}
+
+.officials{
+  margin-top: 6px;
+}
+ 
+.first-box h3,
+.middle-box h3,
+.last-box h3{
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: "Philosopher";
+  letter-spacing: 1px;
+  padding-left: 1rem;
+  padding-top: .7rem;
+}
+
+.first-box p,
+.middle-box p,
+.last-box p{
+  color: rgb(102, 102, 102);
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+  padding-left: 1rem;
+  padding-top: .7rem;
+}
+
+.first-box h4,
+.middle-box h4,
+.last-box h4{
+  color: rgb(102, 102, 102);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+  padding-left: 1rem;
+  padding-top: .7rem;
+}
+
+.read-more i{
+  font-size: 1.2rem;
+  margin-left: -4px;
+  color: #19183b;
+}
+
+.middle-box{
+  height: 65vh;
+  flex: 1 1 30rem;
+  background-color: white;
+}
+
+.anniversary{
+  height: 60%;
+  margin-top: 7px;
+}
+
+.food img{
+  height: 35vh;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.footer{
+  background-color: #19183b;
+  color: white;
+}
+
+.footer h2{
+  font-size: 3rem;
+  text-align: center;
+  padding: 3% 7rem;
+  color: #ff5722;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7.5rem 3%  7.5rem;
+}
+
+.order{
+  display: flex;
+}
+
+.order p{
+  padding-right: 1rem;
+  font-size: 1.9rem;
+}
+
+.order p:hover{
+  color: #ff5722;
+}
+
+.socials{
+  display: flex;
+}
+
+.socials p{
+  padding-right: 3rem;
+  font-size: 1.9rem;
+}
+
+.socials p:hover{
+  color: #ff5722;
+}
+
+.line3{
+  height: 1px;
+  width: 80vw;
+  background-color: rgb(212, 201, 201);
+  margin: auto;
+}
+
+.copyright{
+  padding: 3% 4rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
