@@ -93,7 +93,7 @@ li a:hover {
 .hero-overlay {
   width: 100%;
   min-height: 96vh;
-  background-color: rgba(30, 30, 30, 0.59);
+  background-color: rgba(0, 0, 0, 0.59);
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -389,6 +389,9 @@ li a:hover {
     text-align: center;
   }
 
+  .hero-writeup .p11 {
+    display: none;
+  }
   .grid-section h2 {
     font-size: 2.7rem;
   }
@@ -445,7 +448,6 @@ li a:hover {
   }
 
   .hero-writeup p {
-    width: 50vh;
     font-size: 2.5rem;
     text-align: center;
   }
@@ -454,8 +456,14 @@ li a:hover {
     font-size: 2.5rem;
   }
 
+  .containers {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+  }
+
   .line1 {
-    width: 85vw;
+    display: none;
   }
 
   .line2 {
@@ -463,13 +471,27 @@ li a:hover {
   }
 
   .box {
+    width: 85vw;
     margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border: 2px solid red;
+  }
+
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
   }
 
   .first-box,
   .middle-box,
   .last-box {
     margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .anniversary {
+    padding-bottom: 3.6rem;
   }
 
   .last-box p {
