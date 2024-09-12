@@ -1,21 +1,21 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
-  font-family: 'Philosopher';
+  font-family: "Philosopher";
 }
 
-a{
+a {
   font-size: 1.7rem;
   text-decoration: none;
   color: white;
 }
 
-.header{
+.header {
   height: 8rem;
   background-color: #19183b;
   font-family: "Poppins";
@@ -25,7 +25,7 @@ a{
   z-index: 100;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -36,7 +36,7 @@ a{
   z-index: 100;
 }
 
-.name{
+.name {
   font-size: 2.2rem;
   align-items: center;
   font-style: italic;
@@ -44,53 +44,53 @@ a{
   font-weight: 700;
 }
 
-.menu-links{
+.menu-links {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
 
-.menu-links li{
+.menu-links li {
   display: flex;
   justify-content: space-between;
   color: white;
   padding: 1rem;
 }
 
-li a:hover{
+li a:hover {
   color: #ff5722;
   font-weight: 600;
 }
 
-.btn{
+.btn {
   background-color: white;
-  padding: .9rem 1.2rem;
+  padding: 0.9rem 1.2rem;
   border: none;
   border-radius: 3rem;
   color: #19183b;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #ff5722;
   color: #fff;
 }
 
-.toggle{
+.toggle {
   display: none;
 }
 
-.section2{
+.section2 {
   width: 100%;
   min-height: 96vh;
   background-image: url(photo/hero1.avif);
   background-repeat: no-repeat;
   background-size: cover;
-  display:flex;
-  justify-content:center;
-  align-items:flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.hero-overlay{
+.hero-overlay {
   width: 100%;
   min-height: 96vh;
   background-color: rgba(30, 30, 30, 0.59);
@@ -100,7 +100,7 @@ li a:hover{
   align-items: center;
 }
 
-.hero-writeup{
+.hero-writeup {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,14 +110,14 @@ li a:hover{
   color: #fff;
 }
 
-.hero-writeup p{
+.hero-writeup p {
   font-size: 3rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   padding-bottom: 1rem;
   font-weight: 900;
 }
 
-.button{
+.button {
   padding: 1.5rem 2.5rem;
   background-color: #19183b;
   color: white;
@@ -125,32 +125,32 @@ li a:hover{
   border-radius: 1rem;
 }
 
-.button:hover{
+.button:hover {
   background-color: #ff5722;
   color: #fff;
 }
-.grid-section{
+.grid-section {
   padding-top: 5%;
   background-color: #b9b6b6;
 }
 
-.grid-section h2{
+.grid-section h2 {
   text-align: center;
   font-family: "Poppins";
   font-size: 4rem;
   font-weight: 800;
-  padding-bottom: .2rem;
+  padding-bottom: 0.2rem;
 }
 
-.line1{
-  height: .5rem;
+.line1 {
+  height: 0.5rem;
   width: 57vw;
   margin: auto;
   background-color: #19183b;
 }
 
-.containers{
-  display: flex; 
+.containers {
+  display: flex;
   justify-content: center;
   flex-grow: 1;
   gap: 1.5rem;
@@ -158,27 +158,27 @@ li a:hover{
   flex-wrap: wrap;
 }
 
-.box{
+.box {
   height: 60vh;
   flex: 1 1 30rem;
   background-color: white;
   border: 1px solid rgb(204, 204, 204);
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 
-.box img{
+.box img {
   height: 80%;
   width: 100%;
   object-fit: cover;
 }
 
-.box4 img{
+.box4 img {
   object-fit: fill;
   display: block;
 }
 
-.image{
+.image {
   height: 80%;
   width: 100%;
   background-image: url(photo/egusi.jpg);
@@ -187,24 +187,24 @@ li a:hover{
   background-position: center;
 }
 
-.box h4{
+.box h4 {
   padding: 1rem 2rem 0 2rem;
   font-size: 2rem;
   font-family: "Poppins";
 }
 
-.price{
+.price {
   font-weight: 1000;
   color: #ff5722;
   font-size: 2.1rem;
-  padding: .2rem 2rem;
+  padding: 0.2rem 2rem;
 }
 
-.news-section{
+.news-section {
   background-color: #b9b6b6;
 }
 
-.latest-news{
+.latest-news {
   font-family: "Poppins";
   font-size: 3.4rem;
   font-weight: 700;
@@ -213,14 +213,14 @@ li a:hover{
   padding-top: 4%;
 }
 
-.line2{
-  height: .5rem;
+.line2 {
+  height: 0.5rem;
   width: 23vw;
   margin: auto;
   background-color: #19183b;
 }
 
-.news-container{
+.news-container {
   display: flex;
   justify-content: center;
   flex-grow: 1;
@@ -228,33 +228,33 @@ li a:hover{
   gap: 2rem;
   padding: 3% 6.5rem;
 }
-  
+
 .first-box,
-.last-box{
+.last-box {
   height: 80vh;
   flex: 1 1 30rem;
   background-color: white;
 }
 
-.officials{
+.officials {
   margin-top: 6px;
 }
- 
+
 .first-box h3,
 .middle-box h3,
-.last-box h3{
+.last-box h3 {
   font-size: 2.1rem;
   font-weight: 600;
   line-height: 22px;
   font-family: "Philosopher";
   letter-spacing: 1px;
   padding-left: 1rem;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
 }
 
 .first-box p,
 .middle-box p,
-.last-box p{
+.last-box p {
   color: rgb(102, 102, 102);
   font-size: 1.3rem;
   font-weight: 400;
@@ -262,12 +262,12 @@ li a:hover{
   font-family: "Poppins";
   letter-spacing: 1px;
   padding-left: 1rem;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
 }
 
 .first-box h4,
 .middle-box h4,
-.last-box h4{
+.last-box h4 {
   color: rgb(102, 102, 102);
   font-size: 1.4rem;
   font-weight: 400;
@@ -275,86 +275,214 @@ li a:hover{
   font-family: "Poppins";
   letter-spacing: 1px;
   padding-left: 1rem;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
 }
 
-.read-more i{
+.read-more i {
   font-size: 1.2rem;
   margin-left: -4px;
   color: #19183b;
 }
 
-.middle-box{
+.middle-box {
   height: 65vh;
   flex: 1 1 30rem;
   background-color: white;
 }
 
-.anniversary{
+.anniversary {
   height: 60%;
   margin-top: 7px;
 }
 
-.food img{
+.food img {
   height: 35vh;
   width: 100%;
   margin-top: 6px;
 }
 
-.footer{
+.footer {
   background-color: #19183b;
   color: white;
 }
 
-.footer h2{
+.footer h2 {
   font-size: 3rem;
   text-align: center;
   padding: 3% 7rem;
   color: #ff5722;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 7.5rem 3%  7.5rem;
+  padding: 0 7.5rem 3% 7.5rem;
 }
 
-.order{
+.order {
   display: flex;
 }
 
-.order p{
+.order p {
   padding-right: 1rem;
   font-size: 1.9rem;
 }
 
-.order p:hover{
+.order p:hover {
   color: #ff5722;
 }
 
-.socials{
+.socials {
   display: flex;
 }
 
-.socials p{
+.socials p {
   padding-right: 3rem;
   font-size: 1.9rem;
 }
 
-.socials p:hover{
+.socials p:hover {
   color: #ff5722;
 }
 
-.line3{
+.line3 {
   height: 1px;
   width: 80vw;
   background-color: rgb(212, 201, 201);
   margin: auto;
 }
 
-.copyright{
+.copyright {
   padding: 3% 4rem;
   font-size: 1.6rem;
   text-align: center;
+}
+
+/*//TABLET SCREEN ///*/
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .sign {
+    display: none;
+  }
+
+  .toggle {
+    display: inline-block;
+  }
+
+  .toggle-bar i {
+    font-size: 30px;
+    padding-right: 2rem;
+  }
+
+  .hero-writeup p {
+    width: 50vh;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .grid-section h2 {
+    font-size: 2.7rem;
+  }
+
+  .line2 {
+    width: 40vw;
+  }
+
+  .first-box,
+  .middle-box,
+  .last-box {
+    height: 80vh;
+    flex: 1 1 28vw;
+    background-color: white;
+  }
+
+  .last-box p {
+    font-size: 1rem;
+  }
+
+  .box {
+    margin-bottom: 3rem;
+  }
+
+  .first-box,
+  .middle-box,
+  .last-box {
+    margin-bottom: 3rem;
+  }
+}
+
+/*//MOBILE SCREEN ///*/
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .sign {
+    display: none;
+  }
+
+  .toggle {
+    display: inline-block;
+  }
+
+  .toggle-bar i {
+    font-size: 30px;
+    padding-right: 2rem;
+  }
+
+  .hero-writeup p {
+    width: 50vh;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .grid-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .line1 {
+    width: 85vw;
+  }
+
+  .line2 {
+    width: 56vw;
+  }
+
+  .box {
+    margin-bottom: 3rem;
+  }
+
+  .first-box,
+  .middle-box,
+  .last-box {
+    margin-bottom: 3rem;
+  }
+
+  .last-box p {
+    font-size: 1.2rem;
+  }
+
+  .footer h2 {
+    font-size: 2.5rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
 }
